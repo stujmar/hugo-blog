@@ -20,4 +20,6 @@
   <small>{{ .bio }}</small>
   <img src="{{ .image }}" alt="Photo of {{ .name }}" />
 </div>
+{{ end }} {{ if .Params.has_cat }}
+<p>I have a cat.</p>
 {{ end }} {{ end }}

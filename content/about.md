@@ -3,7 +3,14 @@ title: "About"
 date: 2021-03-02T11:46:30-06:00
 draft: false
 description: "This is the description of the page."
-hascat: true
+
+type: boolean
+name: has_cat
+label: Has cat?
+description: show section if they have a cat
+default: false
+hidden: false
+
 tags:
     - Snickers
     - Smitereens
