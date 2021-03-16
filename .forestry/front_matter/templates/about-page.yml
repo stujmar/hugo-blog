@@ -1,4 +1,10 @@
 ---
 label: about page
 hide_body: true
-fields: []
+fields:
+- name: upload_a_cat_picture
+  type: file
+  config:
+    maxSize: 64
+  label: Upload a Cat picture
+  description: This is where to upload a cat picture.
