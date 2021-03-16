@@ -1,0 +1,50 @@
+---
+label: actual about page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: description
+  label: description
+- type: text
+  name: type
+  label: type
+- type: text
+  name: name
+  label: name
+- type: text
+  name: label
+  label: label
+- type: file
+  name: default
+  label: default
+- type: boolean
+  name: hidden
+  label: hidden
+- type: list
+  name: tags
+  label: tags
+- type: field_group
+  name: config
+  label: config
+  fields:
+  - type: number
+    name: maxSize
+    label: maxSize
+- type: datetime
+  name: publish_date
+  label: publish_date
+- type: text
+  name: names_header
+  label: names_header
+- type: list
+  name: catwishlist
+  label: catwishlist
