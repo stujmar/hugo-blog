@@ -49,3 +49,5 @@ fields:
 - type: list
   name: catwishlist
   label: catwishlist
+pages:
+- content/about.md
