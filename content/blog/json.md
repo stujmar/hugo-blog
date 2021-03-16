@@ -6,7 +6,7 @@ draft: false
 
 # JavaScript Object Notation
 
-![JSON](/static/json.png "JSON Banner")
+![JSON](/json.png "JSON Banner")
 
 ## Overview
 
