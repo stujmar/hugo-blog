@@ -2,7 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Stu's Cool Porfolio"
 googleAnalytics = "UA-xxxxxxxxxxxx"
-theme = "bootstrap"
+theme = "basic"
 [params]
     author = "Stuart Marsh"
     description = "Stuart Marsh's Portfolio Website"

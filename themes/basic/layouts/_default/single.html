@@ -1,4 +1,16 @@
-{{ define "main"}}
-    <h2>{{ .Title}}</h2>
-    {{ .Content}}
+{{ define "main"}} you are here {{ .Path }}
+<h2>{{ .Title}}</h2>
+{{ .Content}}
+<p class="description">{{ .Description }}</p>
+<br />
+<hr />
+<p>Stu's list of Cat names.</p>
+<ol>
+  {{ range .Params.tags }}
+  <li>{{ . }}</li>
+  {{ end }}
+</ol>
+<hr />
+<p>{{ .Params.Catnames }} test</p>
+
 {{ end }}
