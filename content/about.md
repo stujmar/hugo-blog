@@ -16,6 +16,7 @@ tags:
     - Smitereens
     - Squeakers
     - Sneezy
+  
 type: textarea
 name: catnames
 label: Catnames
@@ -41,7 +42,7 @@ name: banner
 label: Banner
 description: Provide a banner image for this post
 hidden: false
-default: "/static/cat.jpg"
+default: /static/cat.jpg
 config:
   maxSize: 2
 
