@@ -2,6 +2,7 @@
 title: "About"
 date: 2021-03-02T11:46:30-06:00
 draft: false
+layout: about
 #  Text
 description: "This is the description of the page."
 
