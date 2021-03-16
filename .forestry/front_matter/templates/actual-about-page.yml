@@ -42,6 +42,7 @@ fields:
 - type: datetime
   name: publish_date
   label: Publish Date 1234
+  description: Write your publish date.
 - type: text
   name: names_header
   label: names_header
