@@ -11,4 +11,4 @@ tags:
 ---
 
 This is my About page.
-{{ .Params.description }}
+

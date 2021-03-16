@@ -1,5 +1,4 @@
-{{ define "main"}}
-    you are here {{ .Path  }}
-    <h2>{{ .Title}}</h2>
-    {{ .Content}}
-{{ end }}
+{{ define "main"}} you are here {{ .Path }}
+<h2>{{ .Title}}</h2>
+{{ .Content}} </br> 
+{{ .Params.description }} {{ end }}
