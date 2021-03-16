@@ -1,6 +1,7 @@
 {{ define "main"}} you are here {{ .Path }}
 <h2>{{ .Title}}</h2>
 {{ .Content}}
+<img src="{{ .Params.banner | relURL }}" />
 <p class="description">{{ .Description }}</p>
 <br />
 <hr />
@@ -11,6 +12,12 @@
   {{ end }}
 </ol>
 <hr />
-<p>{{ .Params.Catnames }} test</p>
-
-{{ end }}
+<div>{{ .Params.Catnames }}</div>
+<div>{{ .Params.date }}</div>
+{{ with .Params.author }}
+<div class="author">
+  <h2>{{ .name }}</h2>
+  <small>{{ .bio }}</small>
+  <img src="{{ .image }}" alt="Photo of {{ .name }}" />
+</div>
+{{ end }} {{ end }}
