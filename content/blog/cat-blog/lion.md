@@ -11,6 +11,5 @@ images:
 - "/uploads/screen-shot-2021-03-23-at-1-49-27-pm.png"
 series: []
 tags: []
-title: Post title
 videos: []
 ---
