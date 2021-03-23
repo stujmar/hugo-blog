@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Stu's Cool Cat Site"
 googleAnalytics = "UA-xxxxxxxxxxxx"
 theme = "basic"
+disableKinds = ["RSS"]
 [params]
     author = "Stuart Marsh"
     description = "Stuart Marsh's Portfolio Website"

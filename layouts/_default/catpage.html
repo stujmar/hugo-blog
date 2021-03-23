@@ -1,6 +1,6 @@
 {{ define "main"}}
 <h2>{{ .Title}}</h2>
 {{ .Content}}
-<img src="{{ .Params.photo | relURL }}" />
+<img class="cat-image" src="{{ .Params.photo | relURL }}" />
 <p class="description">{{ .Description }}</p>
 {{ end }}
