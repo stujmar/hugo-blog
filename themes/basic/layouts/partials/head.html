@@ -8,10 +8,15 @@
   <link rel="stylesheet" href="/styles.css" />
   <meta property="og:title" content="{{ .Params.title }}" />
   <meta property="og:description" content="{{ .Params.description }}" />
-  <meta property="og:image" content="{{ .Params.photo }}" />
+  <meta
+    property="og:image"
+    content="https://smarsh-hugo-blog.netlify.app{{ .Params.photo }}"
+  />
   {{ template "_internal/twitter_cards.html" . }}
   <meta
     name="twitter:image"
     content="https://smarsh-hugo-blog.netlify.app{{ .Params.photo }}"
   />
+  <meta name="twitter:image:width" content="280" />
+  <meta name="twitter:image:height" content="480" />
 </head>
