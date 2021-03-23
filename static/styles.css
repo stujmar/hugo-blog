@@ -1,3 +1,31 @@
+.cat {
+  background: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.cat .cat-title {
+  text-transform: uppercase;
+}
+
+.cat .cat-image {
+  border-radius: 15px;
+}
+
+.cat .cat-description {
+  color: #2e2e2e;
+}
+
+.cat .cat-link {
+  display: block;
+  width: 50px;
+  margin: 15px 0px 0px auto;
+  padding: 10px 15px;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.678);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.678);
+  margin-top: 15px;
+}
+
 * {
   margin: 0;
 }

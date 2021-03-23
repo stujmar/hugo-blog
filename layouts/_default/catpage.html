@@ -1,6 +1,9 @@
 {{ define "main"}}
-<h2>{{ .Title}}</h2>
-{{ .Content}}
-<img class="cat-image" src="{{ .Params.photo | relURL }}" />
-<p class="description">{{ .Description }}</p>
+<div class="cat">
+  <h2 class="cat-title">{{ .Title}}</h2>
+  {{ .Content}}
+  <img class="cat-image" src="{{ .Params.photo | relURL }}" />
+  <p class="cat-description">{{ .Description }}</p>
+  <a class="cat-link" href="/blog/cat-blog/">back</a>
+</div>
 {{ end }}
