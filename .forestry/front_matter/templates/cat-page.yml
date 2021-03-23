@@ -28,5 +28,6 @@ fields:
   label: photo
   description: Upload a picture of a relavent cats please.
 pages:
+- content/blog/cat-blog/lion.md
 - content/blog/cat-blog/lynx.md
 - content/blog/cat-blog/tiger.md
