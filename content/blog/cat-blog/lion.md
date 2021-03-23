@@ -5,4 +5,12 @@ layout: catpage
 description: This pretty boy thinks he's a sphinx.
 photo: "/uploads/screen-shot-2021-03-23-at-1-49-27-pm.png"
 
+audio: []
+date: "2006-01-02"
+images:
+- "/uploads/screen-shot-2021-03-23-at-1-49-27-pm.png"
+series: []
+tags: []
+title: Post title
+videos: []
 ---
