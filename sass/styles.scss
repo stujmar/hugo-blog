@@ -1,4 +1,5 @@
 @import "cats";
+@import "listview";
 
 * {
     margin: 0;
@@ -49,9 +50,9 @@ main {
 
 .btn {
     font-size: 1.25rem;
+    background: white;
     text-decoration: none;
     text-transform: uppercase;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.39);
     padding: 2px 5px;
-    border-radius: 5px;
 }
