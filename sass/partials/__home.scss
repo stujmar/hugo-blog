@@ -1,0 +1,26 @@
+.home {
+  border: 1px solid red;
+  display: grid;
+  height: calc(100vh - 250px);
+
+  #{&}-header {
+    border: 2px solid rgb(218, 114, 45);
+  }
+  #{&}-body {
+    border: 2px solid rgb(59, 218, 45);
+  }
+  #{&}-footer {
+    border: 2px solid rgb(45, 114, 218);
+  }
+}
+
+.card {
+  display: block;
+  height: 100px;
+  width: 100px;
+  background: cadetblue;
+}
+
+.card:hover {
+  background: rgb(124, 177, 179);
+}

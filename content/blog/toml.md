@@ -6,7 +6,7 @@ draft: false
 
 # Tom's Obvious, Minimal Language
 
-![TOML](/toml.png "TOML Banner")
+![TOML](/images/toml.png "TOML Banner")
 
 ## Overview
 

@@ -6,7 +6,7 @@ draft: false
 
 # YAML Ain't Markup Language
 
-![YAML](/yaml.png "YAML Banner")
+![YAML](images/yaml.png "YAML Banner")
 
 ## Overview
 
