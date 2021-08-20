@@ -3,6 +3,7 @@
   {{- partial "head.html" . -}}
   <body>
     <div class="container">
+      {{ partial "crisis_banner.html" . }}
       {{- partial "header.html" . -}} {{- partial "nav.html" . -}}
       <main>{{- block "main" . }}{{- end }}</main>
       <!-- {{ .Site.Params.Author }} -->
