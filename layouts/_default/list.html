@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="listview">
+  <h2 class="listview-title">{{ .Title }}</h2>
+  <ul class="listview-list">
+    {{ range .Pages }}
+    <li class="listview-link">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
