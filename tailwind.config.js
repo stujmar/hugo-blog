@@ -3,6 +3,7 @@ module.exports = {
     enabled: true,
     content: [
       './themes/**/*.html',
+      './themes/basic/partials/**/*.html',
       './layouts/**/*.html',
     ] 
   },
