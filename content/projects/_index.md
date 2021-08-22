@@ -5,3 +5,7 @@ draft: false
 ---
 
 These are my projects.
+Outputs:
+- HTML
+- JSON
+- RSS
