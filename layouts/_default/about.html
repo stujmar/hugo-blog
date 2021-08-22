@@ -1,7 +1,7 @@
 {{ define "main"}}
 <h2>{{ .Title}}</h2>
 {{ .Content}}
-<img src="{{ .Params.banner | relURL }}" />
+<img src="{{ .Params.image | relURL }}" />
 <p class="description border border-red-300">{{ .Description }}</p>
 <br />
 This is coming from the html
@@ -13,14 +13,14 @@ This is coming from the html
   {{ end }}
 </ol>
 <hr />
-<div>{{ .Params.Catnames }}</div>
 <div>{{ .Params.date }}</div>
-{{ with .Params.author }}
-<div class="author">
+<!-- {{ with .Params.author }}
+<div class="author border-2 border-red-400">
   <h2>{{ .name }}</h2>
   <small>{{ .bio }}</small>
-  <img src="{{ .image }}" alt="Photo of {{ .name }}" />
+  <img src="{{ .Params.image }}" alt="Photo of {{ .name }}" />
 </div>
 {{ end }} {{ if .Params.has_cat }}
 <p>I have a cat.</p>
-{{ end }} {{ end }}
+{{ end }} -->
+ {{ end }}

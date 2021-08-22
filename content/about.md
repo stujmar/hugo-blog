@@ -6,7 +6,7 @@ description: Provide a banner image for this post
 type: file
 name: banner
 label: Banner
-default: "/cat.png"
+image: "/images/yaml.png"
 hidden: false
 tags:
 - Snickers
